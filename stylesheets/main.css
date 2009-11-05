@@ -77,8 +77,13 @@ body{
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
 }
+#navigation a:hover{
+  background:#AA6142;
+  color:white;
+}
 
-#eagermonkey #navigation .home a{
+#eagermonkey #navigation .home a,
+#eagermonkey #navigation .home a:hover{
   background:#603813;
   color:white;
 }
