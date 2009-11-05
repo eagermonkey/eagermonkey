@@ -54,7 +54,7 @@ body{
   position:fixed;
   top:0;
   left:0;
-  padding:50px 0 134px 0;
+  padding:50px 0 124px 0;
   background:#ffebd7;
   z-index:2;
   width:100%;
@@ -64,8 +64,9 @@ body{
   position:relative;
   display:block;
   float:left;
-  margin-right:30px;
+  margin-right:20px;
   font-size:153.1%;
+  margin-bottom:10px;
 }
 #navigation a{
   display:block;
