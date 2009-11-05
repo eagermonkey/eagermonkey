@@ -45,3 +45,8 @@ body{text-align:center;}
   top:0;
   left:0;
 }
+#tree_bottom{
+  position:fixed;
+  bottom:10px;
+  left:0;
+}
