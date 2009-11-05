@@ -3,7 +3,7 @@ Copyright (c) 2008,Yahoo! Inc. All rights reserved.
 Code licensed under the BSD License:http://developer.yahoo.net/yui/license.txt
 version:2.6.0
 */
-html{color:#000;background:white;}
+html{color:#000;background:#ffebd7;}
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
 table{border-collapse:collapse;border-spacing:0;}
 fieldset,img{border:0;}
@@ -38,19 +38,68 @@ body{text-align:center;}
   font-family:helvetica;
   color:black;  
 }
+html{
+  background: #ffebd7 url('../images/tree-middle.jpg') repeat-y top left;
+}
 
 /** LAYOUT **/
+#logo{
+  position:fixed;
+  top:141px;
+  left:77px;
+  z-index:3;
+}
+#navigation{
+  position:fixed;
+  top:0;
+  left:0;
+  margin-left:540px;
+  padding:50px 0 240px 0;
+  background:#ffebd7;
+  z-index:2;
+  width:100%;
+}
+#navigation ul{margin-left:20px;}
+#navigation li{
+  position:relative;
+  display:block;
+  float:left;
+  margin-right:30px;
+  font-size:153.1%;
+}
+#navigation a{
+  display:block;
+  padding:4px 8px;
+  color:#603813;
+  background:white;
+  text-decoration:none;
+}
+
+
 #tree_top{
   position:fixed;
   top:0;
   left:0;
+  z-index:2;
 }
 #tree_bottom{
-  position:absolute;
+  position:fixed;
   left:0;
+  bottom:0;
+}
+#tree_trunk{
+  position:fixed;
+  top:323px;
+  left:0;
+  z-index:2;
 }
 
 #content{
-  margin:260px 20px 190px 320px;
-  min-height:420px;
+  margin-top:315px;
+  z-index:1;
+  padding:10px 40px 10px 320px;
+}
+
+#footer{
+  width:100%;
 }
