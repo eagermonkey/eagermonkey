@@ -46,7 +46,8 @@ body{text-align:center;}
   left:0;
 }
 #tree_bottom{
-float:left;
+  position:absolute;
+  left:0;
 }
 
 #content{
