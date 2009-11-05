@@ -77,6 +77,11 @@ html{
   -webkit-border-radius: 6px;
 }
 
+#eagermonkey #navigation .home a{
+  background:#603813;
+  color:white;
+}
+
 
 #tree_top{
   position:fixed;
