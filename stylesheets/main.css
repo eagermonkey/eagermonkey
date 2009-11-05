@@ -89,12 +89,7 @@ html{
   left:0;
   bottom:0;
 }
-#tree_trunk{
-  position:fixed;
-  top:323px;
-  left:0;
-  z-index:2;
-}
+
 
 #content{
   margin-top:220px;
