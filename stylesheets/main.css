@@ -54,7 +54,8 @@ body{
   position:fixed;
   top:0;
   left:0;
-  padding:50px 0 124px 0;
+  padding:50px 0 0 0;
+  height:168px;
   background:#ffebd7;
   z-index:2;
   width:100%;
