@@ -38,8 +38,9 @@ body{text-align:center;}
   font-family:helvetica;
   color:black;  
 }
-html{
-  background: #ffebd7 url('../images/tree-middle.jpg') repeat-y top left;
+body{
+  background: #ffebd7 url('../images/tree-bottom.png') fixed no-repeat bottom left;
+  padding-bottom:20px;
 }
 
 /** LAYOUT **/
@@ -95,20 +96,25 @@ html{
   left:0;
   z-index:2;
 }
-#tree_bottom{
-  position:fixed;
-  left:0;
-  bottom:0;
-  z-index:3;
-}
+
 
 
 #content{
   margin-top:220px;
+  margin-bottom:60px;
   z-index:1;
   padding:0 40px 10px 320px;
 }
 
 #footer{
+  position:fixed;
+  bottom:0;
+  height:50px;
+  left:0;
+  margin-left:250px;
+  padding:5px;
+  background:#ffebd7 url('../images/ground.jpg') no-repeat bottom left;
+  z-index:2;
   width:100%;
 }
+
