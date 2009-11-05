@@ -38,7 +38,7 @@ body{text-align:center;}
   font-family:helvetica;
   color:black;  
 }
-body{
+html{
   background: #ffebd7 url('../images/tree-bottom.png') fixed no-repeat bottom left;
   padding-bottom:20px;
 }
@@ -62,6 +62,7 @@ body{
 }
 #navigation ul{margin-left:560px;}
 #navigation li{
+  text-align:right;
   position:relative;
   display:block;
   float:left;
