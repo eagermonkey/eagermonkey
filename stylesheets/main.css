@@ -54,13 +54,12 @@ body{
   position:fixed;
   top:0;
   left:0;
-  margin-left:540px;
   padding:50px 0 134px 0;
   background:#ffebd7;
   z-index:2;
   width:100%;
 }
-#navigation ul{margin-left:20px;}
+#navigation ul{margin-left:560px;}
 #navigation li{
   position:relative;
   display:block;
