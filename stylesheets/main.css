@@ -51,5 +51,6 @@ body{text-align:center;}
 }
 
 #content{
+  margin:260px 20px 190px 320px;
   min-height:420px;
 }
