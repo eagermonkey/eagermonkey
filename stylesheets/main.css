@@ -45,7 +45,7 @@ html{
 /** LAYOUT **/
 #logo{
   position:fixed;
-  top:141px;
+  top:80px;
   left:77px;
   z-index:3;
 }
@@ -54,7 +54,7 @@ html{
   top:0;
   left:0;
   margin-left:540px;
-  padding:50px 0 240px 0;
+  padding:50px 0 149px 0;
   background:#ffebd7;
   z-index:2;
   width:100%;
@@ -73,12 +73,14 @@ html{
   color:#603813;
   background:white;
   text-decoration:none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
 }
 
 
 #tree_top{
   position:fixed;
-  top:0;
+  top:-90px;
   left:0;
   z-index:2;
 }
@@ -95,7 +97,7 @@ html{
 }
 
 #content{
-  margin-top:315px;
+  margin-top:220px;
   z-index:1;
   padding:10px 40px 10px 320px;
 }
