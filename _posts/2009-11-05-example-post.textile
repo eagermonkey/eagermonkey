@@ -7,3 +7,5 @@ categories:
 ---
 
 h1. example post
+
+This will give url of /category1/category2/2009/11/05/example-post.html
