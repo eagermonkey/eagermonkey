@@ -54,7 +54,7 @@ html{
   top:0;
   left:0;
   margin-left:540px;
-  padding:50px 0 149px 0;
+  padding:50px 0 134px 0;
   background:#ffebd7;
   z-index:2;
   width:100%;
@@ -80,7 +80,13 @@ html{
 
 #tree_top{
   position:fixed;
-  top:-90px;
+  top:0;
+  left:0;
+  z-index:2;
+}
+#tree_trunk{
+  position:fixed;
+  top:215px;
   left:0;
   z-index:2;
 }
@@ -88,13 +94,14 @@ html{
   position:fixed;
   left:0;
   bottom:0;
+  z-index:3;
 }
 
 
 #content{
   margin-top:220px;
   z-index:1;
-  padding:10px 40px 10px 320px;
+  padding:0 40px 10px 320px;
 }
 
 #footer{
