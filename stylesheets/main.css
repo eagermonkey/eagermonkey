@@ -40,3 +40,8 @@ body{text-align:center;}
 }
 
 /** LAYOUT **/
+#tree_top{
+  position:fixed;
+  top:0;
+  left:0;
+}
