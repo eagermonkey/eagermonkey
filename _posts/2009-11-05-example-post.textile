@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Example Post"
+body_id: "example-post"
 categories:
 - category1
 - category2
