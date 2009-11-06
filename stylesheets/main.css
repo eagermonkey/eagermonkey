@@ -141,7 +141,7 @@ a.minimal_layout{
 /*minimal layout*/
 .minimal{background-image:none !important;}
 .minimal #navigation{background-image:none;height:80px;}
-.minimal #navigation ul{margin-left:280px;}
+.minimal #navigation ul{margin-left:260px;}
 .minimal #logo{left:-3px;top:-87px;}
 .minimal #content{margin-top:140px;padding-left:105px;}
 .minimal #tree_trunk{display:none;}
