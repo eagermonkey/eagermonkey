@@ -120,3 +120,30 @@ html{
   width:100%;
 }
 
+
+a.minimal_layout{
+  display:block;
+  background:#603813;
+  color:white;
+  display:block;
+  padding:4px 8px;
+  text-decoration:none;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  position:fixed;
+  top:280px;
+  left:77px;
+  font-size:108%;
+  font-weight:bold;
+  letter-spacing:0.3px;
+  z-index:5;
+}
+/*minimal layout*/
+.minimal{background-image:none !important;}
+.minimal #navigation{background-image:none;height:80px;}
+.minimal #navigation ul{margin-left:280px;}
+.minimal #logo{left:-3px;top:-87px;}
+.minimal #content{margin-top:140px;padding-left:105px;}
+.minimal #tree_trunk{display:none;}
+.minimal #footer{display:none;}
+.minimal a.minimal_layout{top:125px;left:-3px;}
