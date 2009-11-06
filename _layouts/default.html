@@ -19,7 +19,7 @@
    
    <title>{{ page.title }}</title>
 </head>
-<body id="eagermonkey" class="eagermonkey {{ page.category }}">
+<body id="eagermonkey" class="eagermonkey {% for cat in page.categories %}{{ cat }}{% endfor %}">
   
   <div><a href="/" title="home" rel="index"><img src="images/logo.png" alt="eager monkey logo" class="logo" id="logo"/></a></div>
   
