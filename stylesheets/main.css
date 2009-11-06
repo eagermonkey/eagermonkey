@@ -85,8 +85,8 @@ html{
   color:white;
 }
 
-#eagermonkey #navigation .home a,
-#eagermonkey #navigation .home a:hover{
+.eagermonkey #navigation .home a,
+.eagermonkey #navigation .home a:hover{
   background:#603813;
   color:white;
 }
