@@ -116,8 +116,15 @@ p{
   color:white;
 }
 
-.eagermonkey #navigation .home a,
-.eagermonkey #navigation .home a:hover{
+.homepage #navigation .home a,
+.homepage #navigation .home a:hover,
+.about #navigation .home a,
+.about #navigation .home a:hover,
+.blog #navigation .home a,
+.blog #navigation .home a:hover,
+.portfolio #navigation .home a,
+.portfolio #navigation .home a:hover
+{
   background:#603813;
   color:white;
 }
