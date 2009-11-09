@@ -191,7 +191,7 @@ a.minimal_layout{
 /****/
 .highlight1, .highlight2{
   background:#bbd131;
-  padding:10px;
+  padding:2%;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
 }
@@ -199,4 +199,13 @@ a.minimal_layout{
 .highlight2 h3, .highlight2 *{color:white;}
 
 div.list{margin-bottom:15px;}
-
+div.two_in_list .chunk{
+  width:41%;
+  float:left;
+  margin-left:5%;
+}
+div.three_in_list .chunk{
+  width:25%;
+  float:left;
+  margin-left:5%;
+}
