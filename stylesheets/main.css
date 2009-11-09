@@ -200,12 +200,12 @@ a.minimal_layout{
 
 div.list{margin-bottom:15px;}
 div.two_in_list .chunk{
-  width:41%;
+  width:43%;
   float:left;
   margin-right:5%;
 }
 div.three_in_list .chunk{
-  width:25%;
+  width:26%;
   float:left;
   margin-right:4%;
 }
