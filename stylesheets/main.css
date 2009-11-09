@@ -207,5 +207,6 @@ div.two_in_list .chunk{
 div.three_in_list .chunk{
   width:25%;
   float:left;
-  margin-right:5%;
+  margin-right:4%;
 }
+div.two_in_list .chunk, div.three_in_list .chunk:last-child{margin-right:0;}
