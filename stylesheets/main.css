@@ -65,6 +65,10 @@ p{
   line-height:1.4em;
 }
 
+p.intro{
+  background:#bbd131;
+}
+
 #content a{
   color:#603813;
   text-decoration:none;
