@@ -6,4 +6,27 @@ categories:
 - eagermonkey
 ---
 
-<p class='highlight'>When we're not swinging from the trees or munching on a banana we like nothing better than working on our projects; a bit like beavers .... but with thinner tails and smaller teeth!</p>
+<p class='highlight1'>When we're not swinging from the trees or munching on a banana we like nothing better than working on our projects; a bit like beavers .... but with thinner tails and smaller teeth!</p>
+
+{% if site.categories.blog.length %}
+<div class='blog_list list clearfix'>
+<h2>Stuff that we've been thinking about...</h2>  
+  {% for post in site.categories.blog limit:3 %}
+  <div class='highlight1 chunk clearfix'>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+
+{% if site.categories.portfolio.length %}
+<div class='portfolio_list list clearfix'>
+<h2>Things we've been monkeying around with...</h2>  
+  {% for post in site.categories.portfolio limit:3 %}
+  <div class='highlight2 chunk clearfix'>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+

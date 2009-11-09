@@ -65,12 +65,13 @@ p{
   line-height:1.4em;
 }
 
-.highlight{
+.highlight1, .highlight2{
   background:#bbd131;
   padding:10px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
 }
+.highlight2{background:#AA6142;}
 
 #content a{
   color:#603813;
