@@ -1,0 +1,9 @@
+---
+layout: default
+title: "Example Post 3"
+categories:
+- blog
+- portfolio
+---
+
+This is an example page .... there is nothing of interest here ... honest!

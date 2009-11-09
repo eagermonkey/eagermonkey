@@ -202,10 +202,10 @@ div.list{margin-bottom:15px;}
 div.two_in_list .chunk{
   width:41%;
   float:left;
-  margin-left:5%;
+  margin-right:5%;
 }
 div.three_in_list .chunk{
   width:25%;
   float:left;
-  margin-left:5%;
+  margin-right:5%;
 }
