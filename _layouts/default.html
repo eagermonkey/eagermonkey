@@ -42,7 +42,7 @@
     <div class='blog_list list clearfix'>
     <h2>Stuff that we've been thinking about...</h2>  
       {% for post in site.categories.blog limit:3 %}
-      <div class='highlight1 chunk clearfix'>
+      <div class='highlight2 chunk clearfix'>
         <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span>{{ post.date | date_to_string }}</span></a></h3>
         <div class='post_content clearfix'>
         {{ post.content | truncatewords:20 }}
@@ -54,7 +54,7 @@
     <div class='portfolio_list list clearfix'>
     <h2>Things we've been monkeying around with...</h2>  
       {% for post in site.categories.portfolio limit:3 %}
-      <div class='highlight2 chunk clearfix'>
+      <div class='highlight1 chunk clearfix'>
         <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span>{{ post.date | date_to_string }}</span></a></h3>
         <div class='post_content clearfix'>
         {{ post.content | truncatewords:20 }}
