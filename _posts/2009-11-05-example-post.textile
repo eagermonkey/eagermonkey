@@ -6,6 +6,4 @@ categories:
 - portfolio
 ---
 
-h1. example post
-
-This will give url of /category1/category2/2009/11/05/example-post.html
+This is an example page .... there is nothing of interest here ... honest!
