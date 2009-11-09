@@ -39,7 +39,7 @@
     
     {% if page.home %}
     
-    <div class='blog_list list clearfix {% if site.categories.blog.size >= 3%}three_in_list{% elsif site.categories.blog.size >= 2%}two_in_list{% endif %}'>
+    <div id="blogging" class='blog_list list clearfix {% if site.categories.blog.size >= 3%}three_in_list{% elsif site.categories.blog.size >= 2%}two_in_list{% endif %}'>
     <h2>Stuff that we've been thinking about...</h2>  
       {% for post in site.categories.blog limit:3 %}
       <div class='highlight2 chunk clearfix'>
@@ -51,7 +51,7 @@
       {% endfor %}
     </div>
 
-    <div class='portfolio_list list clearfix {% if site.categories.portfolio.size >= 3%}three_in_list{% elsif site.categories.portfolio.size >= 2%}two_in_list{% endif %}'>
+    <div id="working" class='portfolio_list list clearfix {% if site.categories.portfolio.size >= 3%}three_in_list{% elsif site.categories.portfolio.size >= 2%}two_in_list{% endif %}'>
     <h2>Things we've been monkeying around with...</h2>  
       {% for post in site.categories.portfolio limit:3 %}
       <div class='highlight1 chunk clearfix'>
