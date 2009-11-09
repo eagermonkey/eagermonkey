@@ -65,8 +65,11 @@ p{
   line-height:1.4em;
 }
 
-p.intro{
+.highlight{
   background:#bbd131;
+  padding:10px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
 }
 
 #content a{
