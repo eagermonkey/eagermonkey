@@ -58,22 +58,13 @@ h2{font-size:174%;}
 h3{font-size:167%;font-weight:normal;}
 h4{font-size:138.5%;font-weight:normal;}
 h5{font-size:116%;font-weight:normal;}
+h1 a,h2 a,h3 a,h4 a,h5 a{text-decoration:none;}
 
 p{
   font-size:108%;
   margin-bottom:15px;
   line-height:1.4em;
 }
-
-.highlight1, .highlight2{
-  background:#bbd131;
-  padding:10px;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-}
-.highlight2{background:#AA6142;}
-
-div.list{margin-bottom:15px;}
 
 #content p a{
   color:#603813;
@@ -195,3 +186,16 @@ a.minimal_layout{
 .minimal #tree_trunk{display:none;}
 .minimal #footer{display:none;}
 .minimal a.minimal_layout{top:125px;left:-3px;}
+
+
+/****/
+.highlight1, .highlight2{
+  background:#bbd131;
+  padding:10px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+.highlight2{background:#AA6142;}
+
+div.list{margin-bottom:15px;}
+
