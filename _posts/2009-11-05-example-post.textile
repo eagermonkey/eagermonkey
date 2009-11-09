@@ -2,8 +2,8 @@
 layout: default
 title: "Example Post"
 categories:
-- category1
-- category2
+- blog
+- portfolio
 ---
 
 h1. example post
