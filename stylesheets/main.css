@@ -75,11 +75,11 @@ p{
 
 div.list{margin-bottom:15px;}
 
-#content a{
+#content p a{
   color:#603813;
   text-decoration:none;
 }
-#content a:hover{
+#content p a:hover{
   color:white;
   background:#603813;
 }
