@@ -118,12 +118,12 @@ p{
 
 .homepage #navigation .home a,
 .homepage #navigation .home a:hover,
-.about #navigation .home a,
-.about #navigation .home a:hover,
-.blog #navigation .home a,
-.blog #navigation .home a:hover,
-.portfolio #navigation .home a,
-.portfolio #navigation .home a:hover
+.about #navigation .about a,
+.about #navigation .about a:hover,
+.blog #navigation .blog a,
+.blog #navigation .blog a:hover,
+.portfolio #navigation .portfolio a,
+.portfolio #navigation .portfolio a:hover
 {
   background:#603813;
   color:white;
