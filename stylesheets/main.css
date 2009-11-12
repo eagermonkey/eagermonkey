@@ -66,11 +66,11 @@ p{
   line-height:1.4em;
 }
 
-#content p a{
+p a{
   color:#603813;
   text-decoration:none;
 }
-#content p a:hover{
+p a:hover{
   color:white;
   background:#603813;
 }
