@@ -203,6 +203,9 @@ a.minimal_layout{
   color:#603813;
   font-size:116%;
   line-height:1.4em;
+  font-style:italic;
+  font-weight:bold;
+  text-shadow:1px 2px 3px grey;
 }
 
 
