@@ -189,15 +189,21 @@ a.minimal_layout{
 
 
 /****/
-.highlight1, .highlight2, .introduction{
+.highlight1, .highlight2{
   background:#bbd131;
   padding:2%;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
 }
 .highlight2{background:#AA6142;}
-.introduction{background:#603813;}
-.highlight2 h3, .highlight2 *, .introduction, .introduction *{color:white;}
+
+.highlight2 h3, .highlight2 *{color:white;}
+
+.introduction{
+  color:#603813;
+  font-size:116%;
+  line-height:1.4em;
+}
 
 
 div.list{margin-bottom:15px;}
