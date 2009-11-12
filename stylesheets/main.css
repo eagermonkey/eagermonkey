@@ -211,3 +211,8 @@ div.three_in_list .chunk{
   margin-right:4%;
 }
 div.two_in_list .chunk:last-child, div.three_in_list .chunk:last-child{margin-right:0;}
+
+
+span.date{
+  font-size:85%;
+}
