@@ -189,7 +189,7 @@ a.minimal_layout{
 
 
 /****/
-.highlight1, .highlight2, p.introduction{
+.highlight1, .highlight2, .introduction{
   background:#bbd131;
   padding:2%;
   -moz-border-radius: 6px;
