@@ -9,6 +9,7 @@ categories:
 
 {% for post in site.categories.blog %}
 <div class='highlight{% cycle 'cl': '1', '2' %} chunk clearfix list cycled {{ post.author }}'>
+  <a href="/{{ post.author }}.html" title="{{ post.author }} profile page"><img src="/images/authors/{{ post.author }}/small.jpg" title="{{ post.author }} icon" alt="{{ post.author }} icon" class='author_icon'/></a>
   <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span class='date'>{{ post.date | date_to_string }}</span></a></h3>
   <div class='post_content clearfix'>
   {{ post.content | truncatewords:200 }}
