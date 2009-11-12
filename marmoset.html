@@ -1,0 +1,22 @@
+---
+layout: default
+title: Marmoset
+categories:
+- about
+- people
+- profile
+- author
+---
+
+<p class='introduction'>Some intro stuff goes here...</p>
+
+{% for post in site.categories.blog %}
+  {% if post.author == 'marmoset' %}
+  <div class='highlight{% cycle 'cl': '1', '2' %} chunk clearfix list cycled '>
+    <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span class='date'>{{ post.date | date_to_string }}</span></a></h3>
+    <div class='post_content clearfix'>
+    {{ post.content | truncatewords:200 }}
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
