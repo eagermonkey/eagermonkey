@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Example Post 2"
+author: marmoset
 categories:
 - blog
 - portfolio

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Example Post 3"
+author: tamarin
 categories:
 - portfolio
 ---
