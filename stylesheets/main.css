@@ -195,8 +195,9 @@ a.minimal_layout{
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
 }
-.highlight2, .introduction{background:#AA6142;}
-.highlight2 h3, .highlight2 *, .introduction h3, .introduction *{color:white;}
+.highlight2{background:#AA6142;}
+.introduction{background:#603813;}
+.highlight2 h3, .highlight2 *, .introduction, .introduction *{color:white;}
 
 
 div.list{margin-bottom:15px;}
