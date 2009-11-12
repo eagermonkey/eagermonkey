@@ -214,5 +214,6 @@ div.two_in_list .chunk:last-child, div.three_in_list .chunk:last-child{margin-ri
 
 
 span.date{
-  font-size:85%;
+  font-size:50%;
+  display:block;
 }
