@@ -9,7 +9,7 @@ Some intro stuff goes here...
 
 {% for post in site.categories.blog limit:3 %}
 <div class='highlight{{ forloop.index }} chunk clearfix list'>
-  <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span>{{ post.date | date_to_string }}</span></a></h3>
+  <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span class='date'>{{ post.date | date_to_string }}</span></a></h3>
   <div class='post_content clearfix'>
   {{ post.content | truncatewords:200 }}
   </div>
