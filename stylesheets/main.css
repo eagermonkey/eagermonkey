@@ -225,3 +225,7 @@ span.date{
   font-size:50%;
   display:block;
 }
+img.author_icon{
+  float:left;
+  margin:0 8px 8px 0;
+}
