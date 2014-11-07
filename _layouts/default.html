@@ -24,47 +24,13 @@
   <div><a href="/" title="home" rel="index"><img src="images/logo.png" alt="eager monkey logo" class="logo" id="logo"/></a></div>
   
   <div id="navigation" class="clearfix">
-    <ul class="clearfix">
-      <li class='home'><a href='/' title='home' accesskey="h">home</a></li>
-      <li class='about'><a href='/about.html' title='about' accesskey="a">about</a></li> 
-      <li class='portfolio'><a href='/portfolio.html' title='portfolio' accesskey="p">portfolio</a></li>
-      <li class='blog'><a href='/blog.html' title='blog' accesskey="b">blog</a></li> 
-    </ul>
+    
   </div>
   
   <div id="content" class="clearfix">
     {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
     
     {{ content }}
-    
-    {% if page.home %}
-    
-    <div id="blogging" class='blog_list list clearfix {% if site.categories.blog.size >= 3%}three_in_list{% elsif site.categories.blog.size >= 2%}two_in_list{% endif %}'>
-    <h2>Stuff that we've been thinking about...</h2>  
-      {% for post in site.categories.blog limit:3 %}
-      <div class='highlight2 chunk clearfix'>
-        <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span class='date'>{{ post.date | date_to_string }}</span></a></h3>
-        <div class='post_content clearfix'>
-        {{ post.content | truncatewords:20 }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-
-    <div id="working" class='portfolio_list list clearfix {% if site.categories.portfolio.size >= 3%}three_in_list{% elsif site.categories.portfolio.size >= 2%}two_in_list{% endif %}'>
-    <h2>Things we've been monkeying around with...</h2>  
-      {% for post in site.categories.portfolio limit:3 %}
-      <div class='highlight1 chunk clearfix'>
-        <h3><a href="{{ post.url }}" title="{{ post.title }} - {{ post.date | date_to_string }}">{{ post.title }} <span class='date'>{{ post.date | date_to_string }}</span></a></h3>
-        <div class='post_content clearfix'>
-        {{ post.content | truncatewords:20 }}
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    
-    
-    {% endif %}
     
     
     
